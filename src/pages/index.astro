@@ -1,52 +1,168 @@
 ---
 import Layout from '../layouts/Layout.astro';
-const pageTitle = "Milky-Way";
+const pageTitle = "Home";
 ---
 <Layout pageTitle={pageTitle}>
     <div class="gif">
         <img width="300" height="259" alt="RaccoonSpaceGif" src="/space.webp"/>
     </div>
-    <h1>Milky-Way</h1>
-    <span class="badge">Digital Craftsman (Developer)</span>
+    <h1>Justine Edic</h1>
+    <span class="badge">Backend Developer</span>
+    
     <h2>About</h2>
     <p>
-        Praesent malesuada mi nisi, quis tempus magna venenatis ut.
-        Suspendisse tempor sem at scelerisque congue. Curabitur mollis,
-        mi id molestie finibus, metus sem sagittis nunc, euismod feugiat orci neque non lorem.
-        Aenean sollicitudin erat eu molestie tempus. Nunc ac eros elementum, fermentum lacus at,
-        pellentesque mauris. Suspendisse eros neque, interdum euismod consectetur convallis,
-        porttitor at massa. Phasellus a ultrices arcu. Donec viverra, lorem in pellentesque euismod,
-        libero justo gravida nibh, non ultricies justo purus ultrices est.
+        Hi, I'm Justine, I specialize in backend development with a proficiency on frontend development.
     </p>
-    <p>
-        Ut at interdum dui. Donec ut ante ex. Maecenas id ex eget nibh consequat accumsan.
-        Proin semper semper dui nec feugiat. Donec cursus neque id aliquet finibus. Morbi
-        facilisis turpis nibh, nec dictum orci dictum nec. In hac habitasse platea dictumst.
-        Maecenas mollis turpis vitae turpis bibendum, vitae tristique arcu eleifend.
-    </p>
-    <div class="center">
-        <a href="/works/">
-            <button class="btn">My portfolio</button>
-        </a>
-    </div>
-    <h2>Skills</h2>
-    <div class="skills center">
-        <img class="skills__img" width="46" height="46" alt="C#" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/csharp/csharp-original.svg"/>
-        <img class="skills__img" width="46" height="46" alt="DotNetCore" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/dotnetcore/dotnetcore-original.svg"/>
-        <img class="skills__img" width="46" height="46" alt="TypeScript" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/typescript/typescript-original.svg"/>
-        <img class="skills__img" width="46" height="46" alt="Angular" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/angular/angular-original.svg"/>
-        <img class="skills__img" width="46" height="46" alt="Bootstrap" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/bootstrap/bootstrap-original.svg"/>
-        <img class="skills__img" width="46" height="46" alt="CSS" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/css3/css3-original.svg"/>
-        <img class="skills__img" width="46" height="46" alt="HTML" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/html5/html5-original.svg"/>
-        <img class="skills__img" width="46" height="46" alt="JavaScript" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/javascript/javascript-original.svg"/>
-        <img class="skills__img" width="46" height="46" alt="Git" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/git/git-original.svg"/>
-    </div>
-    <h2>Interests</h2>
-    <p>
-        Ut at interdum dui. Donec ut ante ex. Maecenas id ex eget nibh consequat accumsan.
-        Proin semper semper dui nec feugiat. Donec cursus neque id aliquet finibus. Morbi
-        facilisis turpis nibh, nec dictum orci dictum nec. In hac habitasse platea dictumst.
-        Maecenas mollis turpis vitae turpis bibendum, vitae tristique arcu eleifend.
-    </p>
-</Layout>
+    
+    <h2>Projects</h2>
+    <ul class="projects">
+        <li><strong><a href= "https://ncclakbay.itch.io/lakbay-a-heros-journey" target="_blank" rel="noopener noreferrer">Lakbay: A Hero's Journey</a></strong> - Developed and programmed a Filipino-inspired RPG, optimized game mechanics using Unity.</li>
+        <li><strong>Promotional Website of Lakbay</strong> - Created a promotional website using HTML, CSS, and JavaScript.</li>
+        <li><strong><a href="https://top.gg/bot/733035786664149104" target="_blank" rel="noopener noreferrer">Hyejoo: Kpop Discord Bot</a></strong> - Developed a Kpop-themed gacha Discord bot using Node.js and MongoDB.</li>
+        <li><strong><a href="https://juprecruit.cooking/" target="_blank" rel="noopener noreferrer">Jupiter Station Recruitment Website</a></strong> - Full Stack Developer for a proposal website using NextJS and TailwindCSS, with PostgreSQL and Supabase.</li>
+        <li><strong>Pasig City Scholarship Website (Xurpas Enterprise)</strong> - Developed backend solutions for a scholarship website.</li>
+    </ul>
+    
+    <h2>Certifications</h2>
+    <ul>
+        <li>Databases Certification - Certiport, 2021</li>
+        <li>Networking Certification - Cisco, 2022</li>
+        <li>CyberOps Associate Certification - Cisco, 2022</li>
+        <li>Lavasoft Vulnerability - Sweden, 2014</li>
+    </ul>
 
+    <h2>Work Experiences</h2>
+    <ul class="work-experience">
+        <li>I worked as a Backend Developer Intern for <a href="https://xurpasenterprise.com/" target="_blank" rel="noopener noreferrer">Xurpas Enterprise</a> and helped developed backend solutions for the Pasig City Scholarship Website.</li>
+    </ul>
+    
+    
+    
+    <h2>Education</h2>
+    <p>
+        <strong>Far Eastern University Diliman</strong> - Bachelor of Science in Information Technology, Specialization in Animation and Game Development
+    </p>
+    
+    <h2>Skills</h2>
+    <div class="skills">
+        <h3>Languages:</h3>
+        <div class="skills__section">
+            <div class="skill">
+                <img class="skills__img" title="TypeScript" width="46" height="46" alt="TypeScript" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg"/>
+                <p>TypeScript</p>
+            </div>
+            <div class="skill">
+                <img class="skills__img" title="JavaScript" width="46" height="46" alt="JavaScript" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg"/>
+                <p>JavaScript</p>
+            </div>
+            <div class="skill">
+                <img class="skills__img" title="Python" width="46" height="46" alt="Python" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg"/>
+                <p>Python</p>
+            </div>
+            <div class="skill">
+                <img class="skills__img" title="CSS3" width="46" height="46" alt="CSS3" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg"/>
+                <p>CSS3</p>
+            </div>
+            <div class="skill">
+                <img class="skills__img" title="HTML5" width="46" height="46" alt="HTML5" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg"/>
+                <p>HTML5</p>
+            </div>
+            <div class="skill">
+                <img class="skills__img" title="Java" width="46" height="46" alt="Java" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg"/>
+                <p>Java</p>
+            </div>
+        </div>
+        
+        <h3>Frameworks:</h3>
+        <div class="skills__section">
+            <div class="skill">
+                <img class="skills__img" title="NextJS" width="46" height="46" alt="NextJS" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nextjs/nextjs-original.svg"/>
+                <p>NextJS</p>
+            </div>
+            <div class="skill">
+                <img class="skills__img" title="ReactJS" width="46" height="46" alt="ReactJS" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg"/>
+                <p>ReactJS</p>
+            </div>
+            <div class="skill">
+                <img class="skills__img" title="VueJS" width="46" height="46" alt="VueJS" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vuejs/vuejs-original.svg"/>
+                <p>VueJS</p>
+            </div>
+            <div class="skill">
+                <img class="skills__img" title="TailwindCSS" width="46" height="46" alt="TailwindCSS" src="https://raw.githubusercontent.com/devicons/devicon/v2.16.0/icons/tailwindcss/tailwindcss-original.svg"/>
+                <p>TailwindCSS</p>
+            </div>
+            <div class="skill">
+                <img class="skills__img" title="Astro" width="46" height="46" alt="Astro" src="https://astro.build/assets/press/astro-icon-light.svg"/>
+                <p>Astro</p>
+            </div>
+            <div class="skill">
+                <img class="skills__img" title="jQuery" width="46" height="46" alt="jQuery" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/jquery/jquery-original.svg"/>
+                <p>jQuery</p>
+            </div>
+            <div class="skill">
+                <img class="skills__img" title="NodeJS" width="46" height="46" alt="NodeJS" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg"/>
+                <p>NodeJS</p>
+            </div>
+        </div>
+
+        <h3>Databases and Storage:</h3>
+        <div class="skills__section">
+            <div class="skill">
+                <img class="skills__img" title="PostgreSQL" width="46" height="46" alt="PostgreSQL" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postgresql/postgresql-original.svg"/>
+                <p>PostgreSQL</p>
+            </div>
+            <div class="skill">
+                <img class="skills__img" title="MariaDB" width="46" height="46" alt="MariaDB" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mariadb/mariadb-original.svg"/>
+                <p>MariaDB</p>
+            </div>
+            <div class="skill">
+                <img class="skills__img" title="MongoDB" width="46" height="46" alt="MongoDB" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-original.svg"/>
+                <p>MongoDB</p>
+            </div>
+            <div class="skill">
+                <img class="skills__img" title="Redis" width="46" height="46" alt="Redis" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/redis/redis-original.svg"/>
+                <p>Redis</p>
+            </div>
+        </div>
+        
+        <h3>Version Control and Collaboration:</h3>
+        <div class="skills__section">
+            <div class="skill">
+                <img class="skills__img" title="Git" width="46" height="46" alt="Git" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg"/>
+                <p>Git</p>
+            </div>
+            <div class="skill">
+                <img class="skills__img" title="GitLab" width="46" height="46" alt="GitLab" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/gitlab/gitlab-original.svg"/>
+                <p>GitLab</p>
+            </div>
+            <div class="skill">
+                <img class="skills__img" title="GitHub" width="46" height="46" alt="GitHub" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg"/>
+                <p>GitHub</p>
+            </div>
+        </div>
+        
+        <h3>Operating Systems:</h3>
+        <div class="skills__section">
+            <div class="skill">
+                <img class="skills__img" title="Kali Linux" width="46" height="46" alt="Kali Linux" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/debian/debian-original.svg"/>
+                <p>Kali Linux</p>
+            </div>
+            <div class="skill">
+                <img class="skills__img" title="Linux" width="46" height="46" alt="Linux" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linux/linux-original.svg"/>
+                <p>Linux</p>
+            </div>
+            <div class="skill">
+                <img class="skills__img" title="Windows" width="46" height="46" alt="Windows" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/windows8/windows8-original.svg"/>
+                <p>Windows</p>
+            </div>
+        </div>
+
+        <h3>Other Tools and Platforms:</h3>
+        <div class="skills__section">
+            <div class="skill">
+                <img class="skills__img" title="Docker" width="46" height="46" alt="Docker" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/docker/docker-original.svg"/>
+                <p>Docker</p>
+            </div>
+        </div>
+    </div>
+</Layout>

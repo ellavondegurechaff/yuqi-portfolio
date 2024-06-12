@@ -7,7 +7,7 @@
     --text-light: #1e1e2e; 
     --text-link: #78c2ad;
     --underline: #375a7f;
-    --header: 'Pacifico', cursive;
+    --header: 'Times New Roman', cursive;
     --body: 'Josefin Sans', sans-serif; 
 }
 
@@ -376,3 +376,71 @@ html.light {
     }
 }
 
+
+
+/* Colors for links */
+.projects a {
+    color: #78c2ad; /* You can adjust this color to match your theme */
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.projects a:hover, .projects a:focus {
+    color: #fdebf3; /* Light color for hover effect */
+    text-decoration: underline;
+}
+
+.projects {
+    margin-top: 20px;
+}
+
+.projects li {
+    margin-bottom: 10px;
+}
+
+.skills {
+    margin-top: 20px;
+}
+
+.skills__section {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    margin-bottom: 20px;
+    justify-content: space-around;
+}
+
+.skill {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 0.9rem;
+    color: #fdebf3; /* Adjust color to match your site's theme */
+}
+
+.skills__img {
+    margin-bottom: 5px;
+}
+
+.work-experience {
+    margin-top: 20px;
+    padding-left: 20px; /* Indentation for the list */
+    list-style-type: disc; /* Bullet points style */
+}
+
+.work-experience li {
+    font-size: 1rem;
+    margin-bottom: 10px;
+    color: #fdebf3; /* Text color to match your site's theme */
+}
+
+.work-experience a {
+    color: #78c2ad; /* Link color to match your site's theme */
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.work-experience a:hover {
+    text-decoration: underline;
+}
